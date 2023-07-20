@@ -1,0 +1,97 @@
+div.porforoshtarin{
+     width: 90%;
+     height: 400px;
+     margin: 25px auto ;
+     text-align: center;
+     border-radius: 15px;
+     border: 1px solid #E4E4E9;
+     padding-top: 25px;
+     padding-right: 40px;
+}
+div.porforoshtarin>div.topsell{
+    width: 100%;
+    text-align: center;
+}
+div.porforoshtarin>div.topsell>a{
+    text-decoration: none;
+    color: #1EC1D4;
+    position: relative;
+    bottom: 30px;
+    right: 600px;
+    font-size: 13px;
+    font-weight: bold;
+}
+div.porforoshtarin>div.topsell>h2>span{
+    position: relative;
+    top: 3px;
+}
+div.porforoshtarin>div.bottomsell{
+   height: 300px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.swiper-slide>div.whole{
+    width: 330px;
+    height: 270px;
+}  
+.swiper-slide>div.whole>div.up,div.middle,div.down{
+    width: 330px;
+    height: 90px;
+}
+div.whole>div.up>div.rghtsell,div.whole>div.middle>div.rghtsell,div.whole>div.down>div.rghtsell{
+    display: inline-block;
+}
+
+div.whole>div.up>div.rghtsell,div.whole>div.middle>div.rghtsell,div.whole>div.down>div.rghtsell{
+   width: 85px;
+   height: inherit;
+}
+.swiper-slide>div.whole>div.up>div.lftsell,div.whole>div.middle>div.lftsell,div.whole>div.down>div.lftsell{
+   display: inline-block;
+   width: 200px;
+   height: 90px;
+   vertical-align: top;
+}
+
+.swiper-slide>div.whole>div.up>div.lftsell>h1,div.whole>div.middle>div.lftsell>h1,div.whole>div.down>div.lftsell>h1{
+   font-size: 22px;
+    color: #52cfde;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+}
+.swiper-slide>div.whole>div.up>div.lftsell>div.boo,div.whole>div.middle>div.lftsell>div.boo,div.whole>div.down>div.lftsell>div.boo{
+    width:170px ;
+    height: 90px;
+    display: inline-block;
+    border-bottom: 1px solid #E4E4E9;
+    
+}
+.swiper-slide>div.whole>div.up>div.lftsell>div.boo>p,div.whole>div.middle>div.lftsell>div.boo>p,div.whole>div.down>div.lftsell>div.boo>p{
+    color: #818199;
+    font-size:12px;
+    position: relative;
+    top: 30px;
+}
+.swiper-slide>div.whole>div.down>div.lftsell>div.noborder{
+    border: unset;
+}

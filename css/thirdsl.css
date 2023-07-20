@@ -1,0 +1,61 @@
+div.mahboob{
+     width: 90%;
+     height: 250px;
+     margin: 25px auto ;
+     text-align: center;
+     border-radius: 15px;
+     border: 1px solid #E4E4E9;
+}
+div.mahboob>h2{
+    text-align: center;
+    margin: 30px auto;
+    font-size: 18px;
+}
+div.mahboob>h2>span{
+    position: relative;
+    top: 5px;
+}
+div.mahboob>div.third-slider{
+    width: 1320px;
+    height: 130px;
+    background-color: #f2f3f5;
+    margin-right: 20px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+div.swiper-slide>a>img.brand{
+    width: auto;
+    height: 100px;
+}
+div.swiper-slide>a>img.brands1{
+    width: auto;
+    height: 30px;
+}  
+div.swiper-slide>a>img.brandd1{
+    width: auto;
+    height: 70px;
+}
+div.swiper-slide>a>img.brandw{
+    width: auto;
+    height: 130px;
+}

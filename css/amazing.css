@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div.music{
+    direction: ltr;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: #EF394E;
+    border-radius:50%;
+    position:fixed ;
+    top: 670px;
+    left: 50px;
+    z-index: 999;
+}
+div.music>a>span{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: calc(50% - 25px  / 2);
+    top: calc(50% - 25px  / 2);
+    z-index: 999;
+}
+div.photokoliam{
+    width: 100%;
+    height: 64px;
+    background-color: #ef394e;
+    position: relative;
+    bottom: 10px;
+    background-image: url('../images/header.svg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+}
+div.circmahb{
+    width: 97%;
+    height: 210px;
+    margin: auto;
+    padding: 20px ;
+}
+div.circmahb>div.onsl{
+    width:100%;
+    margin: auto;
+    height: 170px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+div.cirswislider,div.oneciram{
+    border-radius: 8px;
+}  
+div.swiper-slide>div.cirswi{
+    width: 122px;
+    height:170px ;
+    padding-top:10px ;
+}  
+div.oneciram{
+    background-color: #f1f2f4;
+}
+div.swiper-slide>div.cirswi>a>img{
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+div.swiper-slide>div.cirswi>span{
+    font-size: 11px;
+    margin-top: 10px;
+}
