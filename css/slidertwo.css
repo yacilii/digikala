@@ -31,6 +31,12 @@ div.slider-two>div.red-box{
     height: 100%;
     object-fit: cover;
   }
+div.tvsliderbord{
+    border-radius: 0 10px 10px 0;
+}  
+div.lasthameslide{
+    border-radius:  10px 0 0 10px ;
+}
 div.swiper-slide>div.red{
     background-color: #ef3f55;
     width: 205px;
